@@ -25,4 +25,5 @@ func main() {
 	w = os.Stdout
 
 	fmt.Fprintf(w, "hello, writer\n")
+
 }

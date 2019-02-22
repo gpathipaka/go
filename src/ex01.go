@@ -20,7 +20,7 @@ type ColoredPoint struct {
 }
 
 //Distance function
-func Distance(p, q Point) float64 {
+func Distance(p, fq Point) float64 {
 	return math.Hypot(q.X-p.X, q.Y-p.Y)
 }
 
